@@ -1,9 +1,9 @@
 /* Module.scss */
 
 header[role="banner"] {
-    background: url('../img/home-banner-bw.jpg') left center no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background: url('../img/Name%20logo.jpg') left center no-repeat;
+    background-size: banner;
+    height: 25vh;
     text-align: center;
     width: 100vw;
 }
@@ -20,24 +20,30 @@ nav[role="navigation"] {
 }
 
 .main-about-text p:first-of-type {
-    margin-top: 0;
+    margin-top: auto;
 }
 
 .main-about-text p:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: auto;
 }
 
 .main-portraits img {
-    filter:grayscale(1);
-    transition:all 300ms ease-in-out;
-    &:hover {
-        filter:grayscale(0);
-        transition: all 300ms ease-in-out;
-    }
+    margin-left: auto;
+    margin-right: auto; 
+    
 }
 
-.contentinfo {
+.main {
     background-color: #ecdede;
     color: #fff;
     
 }
+
+footer[role="banner"] {
+    background: url('../img/Name%20logo.jpg') left center no-repeat;
+    background-size: banner;
+    height: 25vh;
+    text-align: center;
+    width: 100vw;
+}
+
