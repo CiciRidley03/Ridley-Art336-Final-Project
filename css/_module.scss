@@ -1,7 +1,7 @@
 /* Module.scss */
 
 header[role="banner"] {
-    background: url('../img/Name%20logo.png') left center no-repeat;
+   
     background-size: banner;
     height: 25vh;
     text-align: center;
@@ -39,11 +39,4 @@ nav[role="navigation"] {
     
 }
 
-footer[role="banner"] {
-    background: url('../img/Name%20logo.png') left center no-repeat;
-    background-size: banner;
-    height: 25vh;
-    text-align: center;
-    width: 100vw;
-}
 
